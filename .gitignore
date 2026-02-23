@@ -1,0 +1,27 @@
+# Virtual Environment
+torch_env/
+
+# Python Cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# PyTorch Checkpoints and Weights
+*.pth
+*.pt
+*.ckpt
+
+# Logs, Tensorboard, and Outputs
+runs/
+logs/
+*.log
+outputs/
+
+# Data (to prevent accidentally committing large datasets like FlyingChairs)
+data/
+datasets/
+
+# IDEs and OS files
+.vscode/
+.idea/
+.DS_Store
